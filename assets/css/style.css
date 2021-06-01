@@ -8,6 +8,10 @@ body {
  margin: 0;
 }
 
+main {
+ display: flex;
+}
+
 header {
  display: flex;
  flex-direction: row;
@@ -19,20 +23,64 @@ header {
  color: #fff;
 }
 
-header .navs{
+#name {
+display: flex;
+background-color: #e9353e;
+display: inline;
+
+}
+
+section .bio {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+p {
+ display: flex;
+ text-transform: capitalize;
+ font-style: inherit;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: 300;
+ 
+}
+
+
+/* header .navs{
  display: flex;
  align-content: flex-end;
  text-decoration: none;
-}
+} */
 
 .navs a{
 text-decoration: none;
 justify-content: space-around;
 padding: 5px;
 color: #fff;
+} 
 
+h2 {
+ display: inline-block;
+padding-left: 50px;
+
+width: 2px;
+height: 50px;
 
 }
+
+.skills {
+display: flexbox;
+display: grid;
+
+width: 2px;
+height: 50px;
+border: 2px solid black;
+
+}
+
+
+
 /* 
 nav {
  display: flex;
@@ -47,21 +95,19 @@ nav {
  text-decoration: none;
 }*/
 
-main {
- display: flex;
-}
 
-aside {
+
+/* aside {
  flex: 3%;
  /*background-color: #b9c6ae;*/
- padding: 30px;
- /*flex-wrap: wrap;*/
-}
+
+ /*flex-wrap: wrap;
+} */
 
 section {
- flex: 70%;
- background-color: #fff;
- padding: 100px;
+ flex:30%;
+ background-color: rgb(179, 127, 127);
+ /* padding: 100px; */
 }
 
 footer {
@@ -71,7 +117,7 @@ footer {
  color: #fff;
 }
 
-/* Image Placeholders */
+/* Image Placeholders 
 .sample-img {
  background-color: #fff;
  width: 100%;
@@ -86,13 +132,14 @@ footer {
  height: 80px;
  border: 1px solid black;
 }
-.Clock {
+/*  */
+/* .Clock {
  background-color: #fff;
  width: 10%;
  padding: 20px;
  height: 300px;
- border: 1px solid black;
-}
+ border: 1px solid black; */
+
 
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
